@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			<beans>
+			<bean id="poj" class="com.jspiders.app.Pojoclass" autowire="byName">
+			<property name="pid" value="120"/>
+			<property name="pname" value="Dev"/>
+			 <property name="po" ref="pojo"/> 
+			</bean>
+			<bean id="po" class="com.jspiders.app.Pojoclass">
+			<!-- <property name="id" value ="420"/>
+			<property name=" name" value ="Ashish"/>
+			<property name="place" value ="Bangalore"/></bean>  -->
+			<constructor-arg value="420"/>
+			<constructor-arg value="Ashish"/>
+			<constructor-arg value="bangalore"/>
+			 </bean>
+			
+			
+			
+			</beans>

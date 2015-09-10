@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>servletsession</title>
+</head>
+<body>
+<form action="pizza" method="post">
+<table>
+<tr><td> Username  :</td><td><input type="text" value="usn"></td></tr><br><br>
+<tr><td> Pasword :</td><td><input type="password" value="psw"></td></tr><br><br>
+<tr><td><input type="submit" value="Login">
+</table>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="com.ashish.app.University" table="university">
+    <id name="uid" column="uid">
+    <generator class="native"></generator>
+    </id>
+    <property name="uname" column="uname"></property>
+    <list name="college" cascade="all">
+    <key name="uid"></key>
+    <one-to-many class="com.ashish.app.College"/>
+    </list>
+    </class>
+    <class>
+    <id name="id" column="id">
+    <generator class="native"></generator>
+    </id>
+    <property name="cname" column="cname"></property>
+    </class>
+    </hibernate-mapping>

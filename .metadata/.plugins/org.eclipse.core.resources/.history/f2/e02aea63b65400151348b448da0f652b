@@ -1,0 +1,12 @@
+package com.ashish.app;
+
+import java.util.List;
+
+public class University {
+	private int uid;
+	private String uname;
+	private List<College> college;
+	
+	
+
+}

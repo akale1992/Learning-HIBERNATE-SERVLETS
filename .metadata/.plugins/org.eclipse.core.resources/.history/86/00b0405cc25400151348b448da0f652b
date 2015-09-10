@@ -1,0 +1,21 @@
+package com.ashish.app;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class UniversityDao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Configuration config =new Configuration();
+		config.configure("University.hbm.xml");
+		SessionFactory factory = config.buildSessionFactory();
+		Session session = factory.openSession();
+		Transaction tx = session.beginTransaction();
+		
+
+	}
+
+}

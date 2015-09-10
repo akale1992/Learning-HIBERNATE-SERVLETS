@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-2">
+<title>context Ex</title>
+</head>
+<body bgcolor="lime">
+<form action="go" method="post">
+<table>
+<tr><td>Enter lastname :
+<input type="text" name="lname" ></td></tr>
+<tr><td>
+<input type="submit" value="submit"></td></tr>
+</table>
+</form>
+</body>
+</html>
