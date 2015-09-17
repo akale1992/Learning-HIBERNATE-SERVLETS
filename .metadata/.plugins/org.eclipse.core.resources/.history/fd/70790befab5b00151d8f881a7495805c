@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="lime">
+<form action="index.jsp">
+First name :<input type="text" name="fname"><br><br>
+Last name  :<input type="text" name="lname"><br><br>
+Gender : <input type="radio" value="male" name="r1">Male<br><br>
+<input type="radio" value="Female" name="r1">Female
+
+Select Course : <br> <input type="checkbox" name="c1" value="java"> Java<br>
+ <input type="checkbox" name="web " value="web" name="web"> Web Technology <br>
+ <input type="submit" value="go"><br><br>
+</form>
+
+</body>
+</html>

@@ -36,7 +36,7 @@ public class Toppingservices extends HttpServlet {
 		HttpSession session = request.getSession(false);
 		if(session!=null){
 			
-			String username = (String) session.getAttribute("usn");
+			String username = (String) session.getAttribute("un");
 
 			String batchname = request.getParameter("btch");
 			PrintWriter pw = response.getWriter();
@@ -51,5 +51,10 @@ public class Toppingservices extends HttpServlet {
 		}
 		
 	}
-
+   @Override
+protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+		throws ServletException, IOException {
+	// TODO Auto-generated method stub
+	super.doGet(req, resp);
+}
 }

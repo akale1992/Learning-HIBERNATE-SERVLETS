@@ -35,7 +35,7 @@ public class Pizzaservices extends HttpServlet {
 		// TODO Auto-generated method stub
 		String username = request.getParameter("usn");
 		HttpSession session = request.getSession(true);
-		request.setAttribute("usn",username);
+		request.setAttribute("un",username);
 		
 		PrintWriter out = response.getWriter();
 		

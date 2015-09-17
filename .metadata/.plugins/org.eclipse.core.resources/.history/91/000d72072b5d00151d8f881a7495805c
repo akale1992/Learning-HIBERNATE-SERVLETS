@@ -1,0 +1,15 @@
+package com.spring.di.map;
+
+public class Answer {
+	
+	private int ans_id;
+	private String ans_name;
+	
+	public Answer(int id, String name) {
+		// TODO Auto-generated constructor stub
+		ans_id=id;
+		ans_name=name;
+	}
+	
+
+}
