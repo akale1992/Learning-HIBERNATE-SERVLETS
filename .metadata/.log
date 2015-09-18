@@ -1825,3 +1825,9 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2015-09-17 17:03:44.240
 !MESSAGE Could not download sources for aopalliance:aopalliance:1.0
+
+!ENTRY org.eclipse.equinox.security 1 0 2015-09-17 17:19:01.718
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.jst.server.tomcat.core 2 0 2015-09-17 19:36:11.135
+!MESSAGE Tomcat version 6.0 only supports J2EE 1.2, 1.3, 1.4, and Java EE 5 Web modules

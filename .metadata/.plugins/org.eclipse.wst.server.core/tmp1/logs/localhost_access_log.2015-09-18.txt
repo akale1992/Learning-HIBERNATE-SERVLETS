@@ -1,0 +1,17 @@
+127.0.0.1 - - [18/Sep/2015:22:21:21 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:21:23 +0530] "GET /weblogin/ HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:21:40 +0530] "GET /weblogin/?uname=Ashish&uname=admin HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:21:53 +0530] "GET /weblogin/?uname=Ashish&uname=admin HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:21:55 +0530] "GET /weblogin/?uname=&uname= HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:24:15 +0530] "GET /weblogin/?uname=Ashish&uname=admin HTTP/1.1" 200 461
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:24:31 +0530] "POST /weblogin/servlet1 HTTP/1.1" 500 1417
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:31:06 +0530] "POST /weblogin/servlet1 HTTP/1.1" 500 1417
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:33:06 +0530] "POST /weblogin/servlet1 HTTP/1.1" 500 1417
+127.0.0.1 - - [18/Sep/2015:22:33:38 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:33:40 +0530] "GET /weblogin/ HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:33:53 +0530] "POST /weblogin/servlet1 HTTP/1.1" 200 16
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:34:11 +0530] "POST /weblogin/servlet1 HTTP/1.1" 200 486
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:34:27 +0530] "POST /weblogin/servlet1 HTTP/1.1" 200 486
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:34:53 +0530] "POST /weblogin/servlet1 HTTP/1.1" 200 486
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:35:07 +0530] "POST /weblogin/servlet1 HTTP/1.1" 200 486
+0:0:0:0:0:0:0:1 - - [18/Sep/2015:22:35:19 +0530] "POST /weblogin/servlet1 HTTP/1.1" 200 16
